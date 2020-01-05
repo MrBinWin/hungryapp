@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recipe">
+        <item quantity="one">%1$d рецепт</item>
+        <item quantity="few">%1$d рецепта</item>
+        <item quantity="many">%1$d рецептов</item>
+        <item quantity="other">%1$d рецептов</item>
+    </plurals>
+    <plurals name="product_added">
+        <item quantity="one">%1$d продукт добавлен</item>
+        <item quantity="few">%1$d продукта добавлено</item>
+        <item quantity="many">%1$d продуктов добавлено</item>
+        <item quantity="other">%1$d продуктов добавлено</item>
+    </plurals>
+</resources>

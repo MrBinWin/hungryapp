@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="title_app_name">HungryApp</string>
+    <string name="main_recipes">Recipes</string>
+    <string name="main_shopping_list">Shopping list</string>
+    <string name="minutes">min</string>
+    <string name="hours">h</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="changes_applied">Changes have been applied</string>
+    <string name="forms_error_validation_required">Required field</string>
+    <!-- Recipes list -->
+    <string name="recipes_page_title">Recipes</string>
+    <string name="recipes_description_template">%1$s: %2$s</string>
+    <string name="recipes_menu_delete_recipes">Delete selected recipes</string>
+    <string name="recipes_delete_confirmation_title">Delete the following %1$s?</string>
+    <string name="recipes_menu_delete_all_recipes">Delete all recipes</string>
+    <string name="recipes_delete_all_confirmation_title">Delete the following %1$s?</string>
+    <string name="recipes_menu_export_backup">Create backup</string>
+    <string name="recipes_menu_import_backup">Import backup</string>
+    <string name="recipes_error_permissions_storage_read">You have to grant read storage permissions to import a backup file</string>
+    <!-- Shopping list -->
+    <string name="shopping_list_page_title">Shopping list</string>
+    <string name="shopping_list_new_product">New product</string>
+    <string name="shopping_list_reorder">Move the product</string>
+    <string name="shopping_list_dialog_edit_product">Edit</string>
+    <string name="shopping_list_dialog_delete_product">Delete</string>
+    <string name="shopping_list_dialog_edit_product_title">Edit product</string>
+    <string name="shopping_list_menu_sort_alphabetically">Sort alphabetically</string>
+    <string name="shopping_list_menu_clear">Empty shopping list</string>
+    <string name="shopping_list_menu_clear_confirmation">Empty the shopping list?</string>
+    <!-- Recipe details -->
+    <string name="recipe_cooking_time">Cooking time</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_directions">Directions</string>
+    <string name="recipe_picture">Recipe picture</string>
+    <string name="recipe_details_menu_edit_recipe">Edit recipe</string>
+    <string name="recipe_details_menu_delete_recipe">Delete recipe</string>
+    <string name="recipe_delete_confirmation_title">Delete the following %1$s?</string>
+    <string name="recipe_message_products_added">%1$s added to shopping list</string>
+    <!-- Recipe create/edit form -->
+    <string name="recipe_edit_new_page_title" >New recipe</string>
+    <string name="recipe_edit_page_title" >Edit recipe</string>
+    <string name="recipe_edit_title">Title</string>
+    <string name="recipe_edit_ingredients">Ingredients</string>
+    <string name="recipe_edit_directions">Directions</string>
+    <string name="recipe_edit_cooking_time">Cooking time</string>
+    <string name="recipe_edit_picture">Picture</string>
+    <string name="recipe_edit_picture_add">Add picture</string>
+    <string name="recipe_edit_picture_delete">Delete picture</string>
+    <string name="recipe_edit_picture_description">Recipe picture</string>
+    <string name="recipe_edit_error_permissions_storage_read">You have to grant read storage permissions to pick images from gallery</string>
+    <string name="add_picture_dialog_capture_from_camera">Capture from camera</string>
+    <string name="add_picture_dialog_pick_from_gallery">Pick from Gallery</string>
+
+</resources>

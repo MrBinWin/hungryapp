@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipes_fragment">
+
+    <fragment
+        android:id="@+id/recipes_fragment"
+        android:name="com.mrbinwin.hungryapp.fragments.RecipesFragment"
+        android:label="RecipesFragment"
+        tools:layout="@layout/fragment_recipes">
+        <action
+            android:id="@+id/action_recipes_fragment_to_recipe_details_fragment"
+            app:destination="@id/recipe_details_fragment" />
+        <action
+            android:id="@+id/action_recipes_fragment_to_recipe_edit_fragment"
+            app:destination="@id/recipe_edit_fragment" >
+            <argument
+                android:name="ARGUMENT_RECIPE_ID"
+                android:defaultValue="0" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/shopping_list_fragment"
+        android:name="com.mrbinwin.hungryapp.fragments.ShoppingListFragment"
+        android:label="ShoppingListFragment"
+        tools:layout="@layout/fragment_shopping_list"/>
+    <fragment
+        android:id="@+id/recipe_details_fragment"
+        android:name="com.mrbinwin.hungryapp.fragments.RecipeDetailsFragment"
+        android:label="RecipeDetailsFragment"
+        tools:layout="@layout/fragment_recipe_details" >
+        <argument
+            android:name="ARGUMENT_RECIPE_ID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_recipe_details_fragment_to_recipe_edit_fragment"
+            app:destination="@id/recipe_edit_fragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_recipes_fragment"
+        app:destination="@id/recipes_fragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/nav_graph"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_shopping_list_fragment"
+        app:destination="@id/shopping_list_fragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/nav_graph"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/recipe_edit_fragment"
+        android:name="com.mrbinwin.hungryapp.fragments.RecipeEditFragment"
+        android:label="RecipeEditFragment"
+        tools:layout="@layout/fragment_recipe_edit">
+        <argument
+            android:name="ARGUMENT_RECIPE_ID"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <dialog
+        android:id="@+id/addPictureDialog"
+        android:name="com.mrbinwin.hungryapp.dialogs.AddPictureDialog"
+        android:label="AddPictureDialog" >
+        <argument
+            android:name="ARGUMENT_ACTION_ID"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </dialog>
+
+</navigation>

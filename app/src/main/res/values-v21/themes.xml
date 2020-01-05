@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Platform.Light" parent="@style/Theme.V21.Platform.Light" />
+    <style name="Theme.V21.Platform.Light" parent="@style/Theme.Base.Light" />
+
+    <style name="Theme.Platform.Dark" parent="@style/Theme.V21.Platform.Dark" />
+    <style name="Theme.V21.Platform.Dark" parent="@style/Theme.Base.Dark" >
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_app_name">HungryApp</string>
+    <string name="main_recipes">Рецепты</string>
+    <string name="main_shopping_list">Список покупок</string>
+    <string name="minutes">мин</string>
+    <string name="hours">ч</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="changes_applied">Изменения применены</string>
+    <string name="forms_error_validation_required">Обязательное поле</string>
+    <!-- Recipes list -->
+    <string name="recipes_page_title">Рецепты</string>
+    <string name="recipes_description_template">%1$s: %2$s</string>
+    <string name="recipes_menu_delete_recipes">Удалить выбранные рецепты</string>
+    <string name="recipes_delete_confirmation_title">Удалить %1$s?</string>
+    <string name="recipes_menu_delete_all_recipes">Удалить все рецепты</string>
+    <string name="recipes_delete_all_confirmation_title">Удалить все рецепты?</string>
+    <string name="recipes_menu_export_backup">Создать резервную копию</string>
+    <string name="recipes_menu_import_backup">Импортировать резервную копию</string>
+    <string name="recipes_error_permissions_storage_read">Вы должны дать разрешение на чтение файлов, чтобы выбирать резервные копии</string>
+    <!-- Shopping list -->
+    <string name="shopping_list_page_title">Список покупок</string>
+    <string name="shopping_list_new_product">Новый продукт</string>
+    <string name="shopping_list_reorder">Переместить по списку</string>
+    <string name="shopping_list_dialog_edit_product">Изменить</string>
+    <string name="shopping_list_dialog_delete_product">Удалить</string>
+    <string name="shopping_list_dialog_edit_product_title">Изменить продукт</string>
+    <string name="shopping_list_menu_sort_alphabetically">Сортировать по алфавиту</string>
+    <string name="shopping_list_menu_clear">Очистить список покупок</string>
+    <string name="shopping_list_menu_clear_confirmation">Очистить список покупок?</string>
+    <!-- Recipe details -->
+    <string name="recipe_cooking_time">Время готовки</string>
+    <string name="recipe_ingredients">Ингредиенты</string>
+    <string name="recipe_directions">Способ приготовления</string>
+    <string name="recipe_picture">Изображение рецепта</string>
+    <string name="recipe_details_menu_edit_recipe">Изменить рецепт</string>
+    <string name="recipe_details_menu_delete_recipe">Удалить рецепт</string>
+    <string name="recipe_delete_confirmation_title">Удалить %1$s?</string>
+    <string name="recipe_message_products_added">%1$s в список покупок</string>
+    <!-- Recipe create/edit form -->
+    <string name="recipe_edit_new_page_title" >Новый рецепт</string>
+    <string name="recipe_edit_page_title" >Изменить рецепт</string>
+    <string name="recipe_edit_title">Название</string>
+    <string name="recipe_edit_ingredients">Ингредиенты</string>
+    <string name="recipe_edit_directions">Способ приготовления</string>
+    <string name="recipe_edit_cooking_time">Время готовки</string>
+    <string name="recipe_edit_picture">Изображение</string>
+    <string name="recipe_edit_picture_add">Добавить изображение</string>
+    <string name="recipe_edit_picture_delete">Удалить изображение</string>
+    <string name="recipe_edit_picture_description">Изображение рецепта</string>
+    <string name="recipe_edit_error_permissions_storage_read">Вы должны дать разрешение на чтение файлов в галерее, чтобы выбирать изображения</string>
+    <string name="add_picture_dialog_capture_from_camera">Сфотографировать</string>
+    <string name="add_picture_dialog_pick_from_gallery">Выбрать фотографию</string>
+
+</resources>

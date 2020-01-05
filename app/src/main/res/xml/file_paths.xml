@@ -1,0 +1,4 @@
+<paths>
+    <files-path name="images-files" path="/images/" />
+    <files-path name="backup-files" path="/backup/" />
+</paths>

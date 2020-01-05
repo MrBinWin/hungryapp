@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="Widget.App.BottomNavigation.ActiveItemTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.App.RecyclerView.Layout" parent="">
+        <item name="android:background">?attr/colorSurfaceVariant</item>
+    </style>
+
+    <style name="Widget.App.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.App.CardView.RecipeDetails" parent="Widget.MaterialComponents.CardView" />
+
+    <style name="Widget.App.TextView.RecipeLabel" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.App.FloatingActionButton.Night" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="tint">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>

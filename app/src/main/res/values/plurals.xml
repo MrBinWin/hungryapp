@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="recipe">
+        <item quantity="one">%1$d recipe</item>
+        <item quantity="other">%1$d recipes</item>
+    </plurals>
+    <plurals name="product_added">
+        <item quantity="one">%1$d product has been</item>
+        <item quantity="other">%1$d products have been</item>
+    </plurals>
+</resources>
