@@ -1,6 +1,8 @@
 HungryApp
 =====================
 
+[![Google Play link](doc/google_play.png)](https://play.google.com/store/apps/details?id=com.mrbinwin.hungryapp)
+
 HungryApp is an open source Android application that allows you to create your own cookbook and
 add ingredients to your shopping list straight from a recipe with one click.
 

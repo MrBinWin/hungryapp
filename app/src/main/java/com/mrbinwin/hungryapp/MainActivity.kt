@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity(), OnActivityResultReceiver, OnRequestPer
 
         bottomNavigation.setupWithNavController(navController)
 
-        navController.addOnDestinationChangedListener { c, d, a ->
+        navController.addOnDestinationChangedListener { _, _, _ ->
             actionMode?.finish()
             AppKeyboard.hide(this)
         }
