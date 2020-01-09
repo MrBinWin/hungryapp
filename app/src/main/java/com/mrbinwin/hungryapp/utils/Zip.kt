@@ -66,6 +66,9 @@ class Zip {
             while (true) {
                 val entry = zis.nextEntry ?: break
                 val file = File(destination, entry.name)
+                if (!file.canonicalPath.startsWith(destination.canonicalPath)) {
+                    throw SecurityException("Found Zip Path Traversal Vulnerability with ${file.canonicalPath}")
+                }
 
                 if (entry.isDirectory) {
                     file.mkdirs()
